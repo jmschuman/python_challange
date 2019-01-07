@@ -1,0 +1,34 @@
+
+Goal:
+
+Create a program that will read a given set of IPs, perform Geo IP and RDAP lookups, and accept a query to filter results.
+
+Objectives:
+
+This exercise is designed to test your ability to:
+Take abstract requirements and run with them
+Write isolated decoupled modules with strict input/output interfaces
+Create a query language and algorithm for filtering
+Reading, parsing, and extracting IP addresses from unstructured text in an efficient manner
+
+Technical Requirements:
+
+
+Each component (GeoIP/RDAP/Filter/Parsing) should be as decoupled from the others as possible while still being easy to use.
+
+
+The main function should parse a text file containing 5000 IP addresses spread throughout random text.
+
+
+The filter component should provide a custom query language allowing the user to easily filter through the results provided.
+
+
+Do not use 3rd party packages that provide complete solutions for GeoIP queries, RDAP queries, or filtering. Libraries simplifying HTTP requests, basic data manipulation, etc. are acceptable.
+Please include context in your readme.md on how to setup and run your application
+Bonus points for simple, clever, and performant solutions, as well as any extras like unit tests, docs, multiple output formats, result caching, web UI, cli, etc. Be creative.
+
+Other Notes:
+We are not interested in the front-end portion so that can be 'dirty' as long as the backend code is good.
+
+Once you get it done, throw it up on GitHub [https://github.com/*profileID*/python_challenge] 
+
